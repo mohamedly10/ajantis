@@ -1,0 +1,13 @@
+
+@font-face {
+  font-family: 'CairoFont'; /* The name you will use in your styles */
+  src: url('../fonts/Cairo.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Optional: improves performance by preventing a flash of invisible text */
+}
+
+html{
+    scroll-behavior: smooth;
+ 
+  }

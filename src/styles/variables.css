@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'CairoFont'; /* The name you will use in your styles */
+  src: url('../fonts/Cairo.ttf');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; /* Optional: improves performance by preventing a flash of invisible text */
+}
+:root {
+  /* Colors */
+  --color-primary: #D4AF37; /* Gold */
+  --color-primary-dark: #B5932B;
+  --color-secondary: #0A192F; /* Deep Blue/Black */
+  --color-accent: #112240; /* Slightly lighter background */
+  
+  --color-text-light: #E6F1FF;
+  --color-text-muted: #8892B0;
+  --color-text-dark: #0A192F;
+
+  --color-background: #020c1b;
+  --color-background-card: #112240;
+
+  /* Typography */
+  --font-heading: 'CairoFont';
+  --font-body: 'CairoFont' ;
+
+  /* Spacing & Layout */
+  --container-width: 1200px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+  
+  /* Borders */
+  --border-radius: 4px;
+}

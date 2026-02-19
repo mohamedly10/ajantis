@@ -1,0 +1,38 @@
+@import './variables.css'; 
+
+h1{
+
+  background: -webkit-linear-gradient(270deg,rgba(212, 175, 55, 1) 70%, rgba(230, 241, 255, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.zoom-wrapper {
+    overflow: hidden;
+  }
+  
+  .zoom-image {
+    width: 100%;
+    animation: zoomInOut 10s ease-in-out infinite;
+    will-change: transform;
+    backface-visibility: hidden;
+    animation: flash 0.5s ease-out forwards; 
+  }
+  .zoom-image.fade-out {
+    opacity: 0;
+  }
+  
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1.05);
+    }
+    50% {
+      transform: scale(1.2);
+
+    }
+
+    100% {
+      transform: scale(1.05);
+  
+    }
+  }
+
