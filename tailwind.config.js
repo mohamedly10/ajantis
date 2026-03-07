@@ -44,6 +44,7 @@ export default {
           xl: '1200px',
         },
       },
+
     },
   },
   plugins: [],
